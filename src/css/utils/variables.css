@@ -1,0 +1,17 @@
+:root {
+    /* Color styles */
+     --primary: #FFA1A1 ;
+     --white: #ffffff ;
+     --black : #000000 ;
+     --grey : #252525 ;
+
+    /* text style */
+    --title: 60px ;
+    --sousTitre: 30px ;
+    --theme: 25px ;
+    --text-h3: 20px ;
+    --text-article: 14px ;
+    --text-s: 12px ;
+    --text-xs: 10px ;
+
+}   
