@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr"  x-data="{menuIsOpen:false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Rococo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <header>
+        <span  class="logo_header">
+            <a href="/FR/index.html"><img src="/public/img/Logo_renaissance_1.svg" alt="Logo du site"></a>
+        </span>
+        <a href=""><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
+        <span class="material-icons" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms> menu
+        </span>
+      
+        <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+            <div class="icon-croix"> 
+                <span class="material-icons" @click="menuIsOpen = ! menuIsOpen"> 
+                    close
+                </span>
+            </div>
+            <div class="nav-list">
+                <nav>
+                    <ul>
+                        <li class="item-nav">
+                            <a href="Baciccio.html">Baciccio</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Baciccio.html">Antoine Pesne</a>
+                            <div class="separateur"></div>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+             
+
+            
+            
+              
+        
+        
+    
+        
+        
+   
+
+
+
+
+
+    </header>
+    <main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </main>
+
+    
+</body>
+</html>
