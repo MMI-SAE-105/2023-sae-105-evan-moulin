@@ -4,3 +4,30 @@
     height: 253px;
     margin-top: 83px;
 }
+
+/*
+Timeline
+*/
+
+.container {
+     display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+
+.single-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    }
+
+.date-area {
+    display: flex;
+    order: 2;
+    text-align: center;
+    color: var(--white);
+    font-size: 28px;
+    flex-basis: 100px;
+    }
