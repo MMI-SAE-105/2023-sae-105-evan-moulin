@@ -122,6 +122,20 @@ form {
     }
 
 
+.email {
+    margin-left: 25px;
+    margin-bottom: 32px;
+    display:flex;
+    justify-content: space-between;
+    }
+    
+.email input {
+    margin-right: 70px; ;
+    background-color: var(--light-grey);
+    border-radius: 5px;
+    border-color: var(--grey);
+    }
+
 
 
 
