@@ -52,4 +52,17 @@ Timeline
     width: 80%;
     padding-left: 10px;
     background:var(--light-grey);
+    border-radius: 30px;
 }
+   
+
+.content {
+    margin-bottom: 3%;
+}
+.content h2 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
