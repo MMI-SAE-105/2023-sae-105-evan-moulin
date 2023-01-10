@@ -52,7 +52,7 @@ Timeline
     width: 80%;
     padding-left: 10px;
     background:var(--light-grey);
-    border-radius: 30px;
+    
 }
    
 
@@ -63,6 +63,10 @@ Timeline
     margin: 0;
     font-size: 14px;
     text-transform: uppercase;
+    
 }
 
+.content img{
+    border-radius: 44px;
+}
 
