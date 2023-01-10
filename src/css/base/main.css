@@ -178,3 +178,14 @@ homepage
     font-size: var(--sousTitre);
 }
 
+.info_date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.info_date p {
+    font-size: var(--text-article);
+    padding-top: 18px;
+    margin-right: 15px;
+}
