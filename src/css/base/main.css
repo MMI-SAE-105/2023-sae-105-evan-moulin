@@ -201,3 +201,16 @@ homepage
     padding-top: 8px;
     margin-left: 8px;
 }
+
+.info_when {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.info_when p {
+    font-size:  var(--text-article);
+    padding-top: 30px;
+    margin-left: 8px;
+}
+
