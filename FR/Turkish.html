@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr"  x-data="{menuIsOpen:false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Rococo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <span  class="logo_header">
+            <a href="/FR/index.html"><img src="/public/img/Logo_renaissance_1.svg" alt="Logo du site"></a>
+        </span>
+        <div class="drapeau">
+            <a href="/EN/index.html"><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
+        </div>
+        <div class="button_menu">
+             <img src="/public/img/menu.svg" alt="logo menu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
+        </div>
+        <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+    
+            <div class="icon-croix"> 
+                <img src="/public/img/close.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen" >
+            </div>
+            <div class="nav-list">
+                <nav>
+                    <ul>
+                        <li class="item-nav">
+                            <a href="Baciccio.html">Baciccio</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Antoine_Pesne.html">Antoine Pesne</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Rosalba_Carriera.html">Rosalba Carriera</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Canaletto.html">Canaletto</a>
+                            <div class="separateur"></div>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="item-nav">
+                            <a href="Billeterie.html">Billeterie</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="A_propos.html">À propos</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Contact.html">Contact</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Frise.html">Frise</a>
+                            <div class="separateur"></div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h3>Lady in a Turkish Costume (Felicita Sartori)</h3>
+        <img src="/public/img/Lady_in_a_Turkish_Costume_(Felicita_Sartori).webp" alt="tableau Lady in a Turkish Costume (Felicita Sartori)">
+        <h4>Présentation</h4>
+        <p>Lady in a Turkish Costume (Felicita Sartori) est un tableau qui a été peint par Rosalba Carriera en 1728.</p>
+        <p>ce tableau a pour but de représenter un portrait. Crown Prince Friedrich Christian of Saxony  est un tableau qui appartient au style du Rococo. Il est actuellement exposé au galerie des Offices. </p>
+        <h3>autres oeuvres</h3>
+        <a href="/FR/Crown.html"><img src="/public/img/Crown_Prince_Friedrich_Christian_of_Saxony.webp" alt="tableau Crown Prince Friedrich Christian of Saxony"></a>
+         <a href="/FR/Crown.html"><p>Crown Prince Friedrich Christian of Saxony</p></a>
+    </main>
+
+    <footer>
+        <img src="/public/img/Logo_renaissance_1.svg" alt="Logo site">
+        <p>Contact</p>
+        <p>Rococo</p>
+        <p>Billeterie</p>
+        <p>     
+            projet réalisé dans le cadre d’un exercice
+            pédagogique au département MMi de Montbéliard
+        </p>
+    </footer>
+    
+
+</body>
+</html>
