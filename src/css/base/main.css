@@ -93,15 +93,21 @@ form {
 
 .prenom {
     margin-bottom: 32px;
-    margin-left: 20px;
+    margin-left: 25px;
+    display:flex;
+    justify-content: space-between;
+    
     }
 
 .prenom input {
+    margin-right: 70px;
     background-color: var(--light-grey);
     border-radius: 5px;
-    border-color: var(--light-grey);
+    border-color: var(--grey);
     }
     
+
+
 
 
 
