@@ -3,8 +3,13 @@ footer {
     height: 256px;
     background-color: var(--grey);
     color: var(--white);
+     
 }
 
 footer p {
-    margin: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    
 }
+
+
