@@ -233,3 +233,10 @@ homepage
     font-size:  var(--text-article);
 }
 
+.first_title_all_page {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: var(--sousTitre);
+}
+
