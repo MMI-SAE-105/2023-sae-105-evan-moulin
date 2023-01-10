@@ -103,7 +103,6 @@ form {
     margin-right: 70px;
     background-color: var(--light-grey);
     border-radius: 5px;
-    border-color: var(--grey);
     }
     
 .nom {
@@ -111,14 +110,12 @@ form {
     margin-bottom: 32px;
     display:flex;
     justify-content: space-between;
-
     }
 
 .nom input {
     margin-right: 70px;
     background-color: var(--light-grey);
     border-radius: 5px;
-    border-color: var(--grey);
     }
 
 
@@ -133,7 +130,6 @@ form {
     margin-right: 70px; ;
     background-color: var(--light-grey);
     border-radius: 5px;
-    border-color: var(--grey);
     }
 
 .message {
@@ -147,10 +143,11 @@ form {
     margin-right: 70px;
     background-color: var(--light-grey);
     border-radius: 5px;
-    border-color: var(--grey);
     width: 165px;
     height: 50px;
     }
+
+
 
 
 
