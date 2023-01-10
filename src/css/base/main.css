@@ -155,5 +155,12 @@ form {
     color: var(--black);
     }
 
+/*
+homepage
+*/
 
-  
+.box_homepage h1 {
+    padding-top: 45px;
+    padding-left: 20px;
+    
+}
