@@ -8,21 +8,22 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="/src/css/style.css">
+    
 </head>
 <body>
     <header>
         <span  class="logo_header">
             <a href="/FR/index.html"><img src="/public/img/Logo_renaissance_1.svg" alt="Logo du site"></a>
         </span>
-        <a href=""><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
-        <span class="material-icons" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms> menu
-        </span>
-      
+        <div class="drapeau">
+            <a href="/EN/index.html"><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
+        </div>
+        <div class="button_menu">
+             <img src="/public/img/menu.svg" alt="logo menu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
+        </div>
         <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
             <div class="icon-croix"> 
-                <span class="material-icons" @click="menuIsOpen = ! menuIsOpen"> 
-                    close
-                </span>
+                <img src="/public/img/close.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen" >
             </div>
             <div class="nav-list">
                 <nav>
@@ -68,6 +69,9 @@
     </header>
     
     <main>
+        <div>
+            
+        </div>
 
 
 
