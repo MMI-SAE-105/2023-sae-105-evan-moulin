@@ -70,3 +70,16 @@ Timeline
     border-radius: 44px;
 }
 
+@media (min-width: 640px) {
+    .content, .custom {
+      width: 40%;
+    }
+    .box-right .content {
+      order: 1;
+      padding-right: 10px;
+      border-radius: 25px;
+    }
+    .box-right .custom {
+      order: 3;
+    }
+  }
