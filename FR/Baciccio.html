@@ -7,6 +7,112 @@
     <title>Document</title>
 </head>
 <body>
-    <p>hello</p>
+    
+
+    <!DOCTYPE html>
+<html lang="fr"  x-data="{menuIsOpen:false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Rococo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <span  class="logo_header">
+            <a href="/FR/index.html"><img src="/public/img/Logo_renaissance_1.svg" alt="Logo du site"></a>
+        </span>
+        <div class="drapeau">
+            <a href="/EN/index.html"><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
+        </div>
+        <div class="button_menu">
+             <img src="/public/img/menu.svg" alt="logo menu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
+        </div>
+        <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+    
+            <div class="icon-croix"> 
+                <img src="/public/img/close.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen" >
+            </div>
+            <div class="nav-list">
+                <nav>
+                    <ul>
+                        <li class="item-nav">
+                            <a href="Baciccio.html">Baciccio</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Antoine_Pesne.html">Antoine Pesne</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Rosalba_Carriera.html">Rosalba Carriera</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Canaletto.html">Canaletto</a>
+                            <div class="separateur"></div>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="item-nav">
+                            <a href="Billeterie.html">Billeterie</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="A_propos.html">À propos</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Contact.html">Contact</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Frise.html">Frise</a>
+                            <div class="separateur"></div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h3>Baciccio</h3>
+        <img src="/public/img/photo_baciccio.webp" alt="photo Baciccio">
+        <h4>Présentation</h4>
+        <p>
+            Giovan Battista Gaulli dit il Baciccio (Gênes, 8 mai 1639 - Rome, 2 avril 1709) est un peintre italien baroque largement influencé par Gian Lorenzo Bernini auprès de qui il travailla dès 1657 à Rome, où il devint son protégé.
+        </p>
+
+        <p>
+            Né à Gênes en 1639, il a pu longuement étudier les œuvres de Rubens, Van Dyck, Strozzi ou du Baroche, avant de se rendre à Rome en 1657.
+
+            Sa rencontre avec Gianlorenzo Bernini sera déterminante pour sa carrière.
+        </p>
+
+        <h3>Découvrez  ces oeuvres </h3>
+
+        <img src="/public/img/Triumph_of_Bacc_us_and_Ariadne.webp" alt="tableau Triumph of bacchus and Ariadne">
+        <p>Triumph of Bacchus and Ariadne</p>
+        <img src="/public/img/The_Preaching_of_St_John_the_Baptist.webp" alt="Tableau The The Preaching of St John the Baptist">
+        <p>The Preaching of St John the Baptist</p>
+    </main>
+
+    <footer>
+        <img src="/public/img/Logo_renaissance_1.svg" alt="Logo site">
+        <p>Contact</p>
+        <p>Rococo</p>
+        <p>Billeterie</p>
+        <p>     
+            projet réalisé dans le cadre d’un exercice
+            pédagogique au département MMi de Montbéliard
+        </p>
+    </footer>
+    
+
 </body>
 </html>

@@ -4,8 +4,8 @@
     margin-top: 0px;
     margin-right: 0px;
     background-color: var(--grey);
-    width: 390px;
-    height: 844px;
+    width: 100%;
+    height: 100%;
     z-index: 2;
     position: fixed;
     right: 0;
