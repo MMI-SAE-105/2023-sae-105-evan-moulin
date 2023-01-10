@@ -14,6 +14,7 @@ Timeline
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 100px;
     }
 
 .single-box {
@@ -31,3 +32,24 @@ Timeline
     font-size: 28px;
     flex-basis: 100px;
     }
+
+.date-area>span {
+    font-size: 20px;
+    line-height: 70px;
+    margin: auto;
+    background:var(--primary) ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    }
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    color: var(--black);
+    order: 3;
+    width: 80%;
+    padding-left: 10px;
+    background:var(--light-grey);
+}
