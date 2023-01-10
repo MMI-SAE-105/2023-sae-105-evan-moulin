@@ -147,8 +147,13 @@ form {
     height: 50px;
     }
 
-
-
+.button {
+    background-color: var(--primary);
+    border-radius: 7px;
+    margin-left: 40%;
+    margin-top: 25px;
+    color: var(--black);
+    }
 
 
   
