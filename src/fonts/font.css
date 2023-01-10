@@ -4,4 +4,13 @@
         src: url("Mulish-VariableFont_wght.ttf");
     }
 
+    @font-face {
+        font-family: "Oswald";
+        src: url("/src/fonts/Oswald-VariableFont_wght.ttf");
+    }
+
     p {font-family: "Mulish";}
+
+    nav {
+        font-family: "Oswald";
+    }
