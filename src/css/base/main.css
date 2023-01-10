@@ -95,6 +95,12 @@ form {
     margin-bottom: 32px;
     margin-left: 20px;
     }
+
+.prenom input {
+    background-color: var(--light-grey);
+    border-radius: 5px;
+    border-color: var(--light-grey);
+    }
     
 
 
