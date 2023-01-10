@@ -225,3 +225,10 @@ homepage
     padding-top: 80px;
     margin-left: 8px;
 }
+
+.texte_debut_info {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size:  var(--text-article);
+}
