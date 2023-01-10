@@ -9,6 +9,10 @@
         src: url("/src/fonts/Oswald-VariableFont_wght.ttf");
     }
 
+    h1, h2, h3 , h4 {
+        font-family: "Mulish";
+    }
+
     p {font-family: "Mulish";}
 
     nav {
