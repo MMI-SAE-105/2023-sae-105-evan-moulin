@@ -22,6 +22,7 @@
              <img src="/public/img/menu.svg" alt="logo menu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
         </div>
         <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+    
             <div class="icon-croix"> 
                 <img src="/public/img/close.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen" >
             </div>
@@ -66,10 +67,11 @@
                     </ul>
                 </nav>
             </div>
+        </div>
     </header>
     
     <main>
-        <div class="box_header">
+        <div class="box_homepage">
             <h1> Rococo</h1>
             <h2>Venez découvrir Rococo, le mouvement artistique européen du XVIIIe</h2>
         </div>
@@ -92,18 +94,27 @@
             Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants ⇒ Gratuit
         </p>
 
+        <h3>Oeuvres au programmes</h3>
+        <section>
+            <img src="/public/img/image_1_carroussel.webp" alt="Tableau">
+            <img src="/public/img/image_2_carroussel.webp" alt="Tableau">
+            <img src="/public/img/image_3_carroussel.webp" alt="Tableau">
+            <img src="/public/img/image_4_carroussel.webp" alt="Tableau">
 
-        
+        </section>
 
-
-
-
-
-
-
-
-        
     </main>
+
+    <footer>
+        <img src="/public/img/Logo_renaissance_1.svg" alt="Logo site">
+        <p>Contact</p>
+        <p>Rococo</p>
+        <p>Billeterie</p>
+        <p>
+            projet réalisé dans le cadre d’un exercice
+            pédagogique au département MMi de Montbéliard</p>
+    </footer>
+
 
     
 </body>
