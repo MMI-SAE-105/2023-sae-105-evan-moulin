@@ -251,4 +251,5 @@ homepage
     margin-left: 20px;
     margin-top: 30px ;
     margin-bottom: 22px;
+    font-size: var(--text-h3);
 }
