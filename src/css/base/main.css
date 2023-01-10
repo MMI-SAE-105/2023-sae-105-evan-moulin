@@ -88,7 +88,7 @@ Timeline
   Contact
   */
 form {
-    margin-top: 150px;
+    margin-top: 60px;
 }
 
 .prenom {
@@ -152,6 +152,7 @@ form {
     border-radius: 7px;
     margin-left: 40%;
     margin-top: 25px;
+    margin-bottom: 30px;
     color: var(--black);
     }
 
@@ -233,6 +234,10 @@ homepage
     font-size:  var(--text-article);
 }
 
+/*
+All page
+*/
+
 .first_title_all_page {
     text-align: center;
     margin-top: 100px;
@@ -255,5 +260,9 @@ homepage
 }
 
 .all_image {
-    
+    text-align:center ;
+    margin:auto ;
+    display:flex;
+    margin-bottom: 30px ;
+    margin-top: 30px;
 }
