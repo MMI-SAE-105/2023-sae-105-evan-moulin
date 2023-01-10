@@ -168,4 +168,5 @@ homepage
 .box_homepage h2{
     padding-left: 20px;
     padding-top: 16px;
+    font-size: var(--sousTitre);
 }
