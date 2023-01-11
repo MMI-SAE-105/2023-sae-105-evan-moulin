@@ -71,9 +71,10 @@
     </header>
     <main>
         <h3 class="first_title_all_page">À propos </h3>
+        <p class="all_paragraphe"><strong>Pour toute question n'hésitez pas à consulter notre FAQ</strong></p>
     <div class="accordeon">
       <section x-data="{open:true}">
-        <button @click="open = !open">Le rococo évenement</button>
+        <button class="button_accordeon" @click="open = !open">Le rococo évenement</button>
         <p x-show="open">Le rococo évenement aura lieu du 13 avril au 23 juin 2021, pour plus d'information rendez-vous sur la page <a href="/FR/index.html">informaation.</a></p>
       </section>
       <section x-data="{open:true}">
