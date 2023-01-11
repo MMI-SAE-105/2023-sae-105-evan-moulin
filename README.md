@@ -4,6 +4,8 @@
 - URL du site : https://rococo-festival.evanmoulin.fr/fr/
 - URL FIGMA :https://www.figma.com/file/uneJrQx8hWZpXL6i8ehMI1/SAE_105_Evan_Moulin-(2022)-(Copy)?node-id=322%3A1210&t=KOQZV225DOuBmaS6-1
 
+ - Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/accueil.html
+
 # Structure de départ pour la SAE 105.
 
 La structure de votre projet doit respecter scrupuleusement le modèle fourni dans ce dépôt (Repository).

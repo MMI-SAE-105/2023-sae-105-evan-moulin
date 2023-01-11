@@ -309,3 +309,24 @@ a {
     margin: auto;
     font-size: large;
 }
+
+/*
+Page redirection de langue
+*/
+
+.box_redirection_langue {
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary);
+}
+
+
+.h1_Redirection_langue {
+    font-size: var(--title);
+    text-align: center;
+}
+
+.li_changement_de_langue {
+    width: 50px;
+    height: 30px;
+}
