@@ -1,0 +1,6 @@
+.button_accordeon {
+    background-color: var(--primary);
+    color: var(--black);
+    border-radius: 8px;
+    border-color: var(--grey);
+}
