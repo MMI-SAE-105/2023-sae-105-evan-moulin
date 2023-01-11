@@ -1,7 +1,7 @@
 .box_homepage {
     background-color: var(--primary);
     width: 390px;
-    height: 253px;
+    height: 100%;
     margin-top: 83px;
 }
 
@@ -161,14 +161,15 @@ homepage
 */
 
 .box_homepage h1 {
-    padding-top: 35px;
+    padding-top: 10px;
     padding-left: 20px;
     font-size: var(--title);
 }
 
 .box_homepage h2{
     padding-left: 20px;
-    padding-top: 14px;
+    padding-top: 0px;
+    padding-bottom: 22px;
     font-size: var(--sousTitre);
 }
 
