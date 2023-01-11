@@ -102,10 +102,9 @@
             </p>
         </div>
         <h3 class="sous_titres_homepage">Oeuvres au programmes</h3>
-        <section>
             <div class="carrousel" x-data="{}"><div class="carrousel" x-data="{}">
-                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth"  class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button>
-                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth"  class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"> &lt; </button>
+                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"> > </button>
                     <div class="carrousel_parent-ecrans" x-ref="parent">
                     <div class="carrousel_ecran">
                         <figure>
@@ -128,10 +127,7 @@
                         </div>
                     </div>
                 </div>
-                    
-                
-        </section>
-
+            </div>
         <a class="link" href="/FR/Frise.html"><P>Frise chronologique des différents artistes</P></a>
     </main>
 

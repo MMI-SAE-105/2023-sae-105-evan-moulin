@@ -1,114 +1,113 @@
-<!DOCTYPE html>
-<html lang="fr"  x-data="{menuIsOpen:false}">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Festival Rococo</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script defer src="https://unpkg.com/alpinejs"></script>
-    <link rel="stylesheet" href="/src/css/style.css">
-    
-</head>
-<body>
-    <header>
-        <span  class="logo_header">
-            <a href="/FR/index.html"><img src="/public/img/Logo_renaissance_1.svg" alt="Logo du site"></a>
-        </span>
-        <div class="drapeau">
-            <a href="/EN/index.html"><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
-        </div>
-        <div class="button_menu">
-             <img src="/public/img/menu.svg" alt="logo menu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
-        </div>
-        <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
-    
-            <div class="icon-croix"> 
-                <img src="/public/img/close.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen" >
-            </div>
-            <div class="nav-list">
-                <nav>
-                    <ul>
-                        <li class="item-nav">
-                            <a href="Baciccio.html">Baciccio</a>
-                            <div class="separateur"></div>
-                        </li>
-                        <li class="item-nav">
-                            <a href="Antoine_Pesne.html">Antoine Pesne</a>
-                            <div class="separateur"></div>
-                        </li>
-                        <li class="item-nav">
-                            <a href="Rosalba_Carriera.html">Rosalba Carriera</a>
-                            <div class="separateur"></div>
-                        </li>
-                        <li class="item-nav">
-                            <a href="Canaletto.html">Canaletto</a>
-                            <div class="separateur"></div>
-                        </li>
-                    </ul>
-
-                    <ul>
-                        <li class="item-nav">
-                            <a href="Billeterie.html">Billeterie</a>
-                            <div class="separateur"></div>
-                        </li>
-                        <li class="item-nav">
-                            <a href="A_propos.html">À propos</a>
-                            <div class="separateur"></div>
-                        </li>
-                        <li class="item-nav">
-                            <a href="Contact.html">Contact</a>
-                            <div class="separateur"></div>
-                        </li>
-                        <li class="item-nav">
-                            <a href="Frise.html">Frise</a>
-                            <div class="separateur"></div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main>
-        <h3 class="first_title_all_page">Contact</h3>
-
-        <p class="all_paragraphe">Si toutefois vous avez des question, n'héssitez pas à nous écrire depuis ce formulaire.</p>
-       
+    <!DOCTYPE html>
+    <html lang="fr"  x-data="{menuIsOpen:false}">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Festival Rococo</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script defer src="https://unpkg.com/alpinejs"></script>
+        <link rel="stylesheet" href="/src/css/style.css">
         
-            <form>
-                <div class="prenom">
-                    <label for="prenom">Prénom :</label>
-                    <input type="text" id="prenom" name="user_name">
+    </head>
+    <body>
+        <header>
+            <span  class="logo_header">
+                <a href="/FR/index.html"><img src="/public/img/Logo_renaissance_1.svg" alt="Logo du site"></a>
+            </span>
+            <div class="drapeau">
+                <a href="/EN/index.html"><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
+            </div>
+            <div class="button_menu">
+                <img src="/public/img/menu.svg" alt="logo menu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
+            </div>
+            <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+        
+                <div class="icon-croix"> 
+                    <img src="/public/img/close.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen" >
                 </div>
-                <div class="nom">
-                    <label for="nom">Nom :</label>
-                    <input type="text" id="nom" name="user_name">
+                <div class="nav-list">
+                    <nav>
+                        <ul>
+                            <li class="item-nav">
+                                <a href="Baciccio.html">Baciccio</a>
+                                <div class="separateur"></div>
+                            </li>
+                            <li class="item-nav">
+                                <a href="Antoine_Pesne.html">Antoine Pesne</a>
+                                <div class="separateur"></div>
+                            </li>
+                            <li class="item-nav">
+                                <a href="Rosalba_Carriera.html">Rosalba Carriera</a>
+                                <div class="separateur"></div>
+                            </li>
+                            <li class="item-nav">
+                                <a href="Canaletto.html">Canaletto</a>
+                                <div class="separateur"></div>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li class="item-nav">
+                                <a href="Billeterie.html">Billeterie</a>
+                                <div class="separateur"></div>
+                            </li>
+                            <li class="item-nav">
+                                <a href="A_propos.html">À propos</a>
+                                <div class="separateur"></div>
+                            </li>
+                            <li class="item-nav">
+                                <a href="Contact.html">Contact</a>
+                                <div class="separateur"></div>
+                            </li>
+                            <li class="item-nav">
+                                <a href="Frise.html">Frise</a>
+                                <div class="separateur"></div>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                 
-                <div class="email">
-                    <label for="mailto">E-mail&nbsp;:</label>
-                    <input type="email" id="mail" name="user_mail">
-                </div>
-                <div class="message">
-                    <label for="msg">Message :</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </div>
-                
-                <input class="button" type="submit">
+            </div>
+        </header>
+        <main>
+            <h3 class="first_title_all_page">Contact</h3>
+
+            <p class="all_paragraphe">Si toutefois vous avez des question, n'héssitez pas à nous écrire depuis ce formulaire.</p>
+        
             
-            </form>
-        
-    </main>
-    <footer>
-        <img src="/public/img/logo_site.svg" alt="Logo site">
-        <p>Contact</p>
-        <p>Rococo</p>
-        <p>Billeterie</p>
-        <p>     
-            projet réalisé dans le cadre d’un exercice
-            pédagogique au département <a href="http://mmimontbeliard.com/"> MMi de Montbéliard</a> 
-        </p>
-    </footer>
+                <form>
+                    <div class="prenom">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="user_name">
+                    </div>
+                    <div class="nom">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="user_name">
+                    </div>
+                    
+                    <div class="email">
+                        <label for="email">e-mail</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div class="message">
+                        <label for="msg">Message :</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                    
+                    <input class="button" type="submit">
+                </form>
+            
+        </main>
+        <footer>
+            <img src="/public/img/logo_site.svg" alt="Logo site">
+            <p>Contact</p>
+            <p>Rococo</p>
+            <p>Billeterie</p>
+            <p>     
+                projet réalisé dans le cadre d’un exercice
+                pédagogique au département <a href="http://mmimontbeliard.com/"> MMi de Montbéliard</a> 
+            </p>
+        </footer>
 
-</body>
-</html>
+    </body>
+    </html>

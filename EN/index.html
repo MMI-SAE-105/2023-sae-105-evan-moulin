@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr"  x-data="{menuIsOpen:false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Rococo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <span  class="logo_header">
+            <a href="/FR/index.html"><img src="/public/img/Logo_renaissance_1.svg" alt="Logo du site"></a>
+        </span>
+        <div class="drapeau">
+            <a href="/EN/index.html"><img src="/public/img/drapeau-anglais.svg" alt="Drapeau anglais"></a>
+        </div>
+        <div class="button_menu">
+             <img src="/public/img/menu.svg" alt="logo menu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
+        </div>
+        <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+    
+            <div class="icon-croix"> 
+                <img src="/public/img/close.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen" >
+            </div>
+            <div class="nav-list">
+                <nav>
+                    <ul>
+                        <li class="item-nav">
+                            <a href="Baciccio.html">Baciccio</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Antoine_Pesne.html">Antoine Pesne</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Rosalba_Carriera.html">Rosalba Carriera</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Canaletto.html">Canaletto</a>
+                            <div class="separateur"></div>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="item-nav">
+                            <a href="Billeterie.html">Billeterie</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="A_propos.html">About us</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Contact.html">Contact</a>
+                            <div class="separateur"></div>
+                        </li>
+                        <li class="item-nav">
+                            <a href="Frise.html">Timeline</a>
+                            <div class="separateur"></div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="box_homepage">
+            <h1>Rococo</h1>
+            <h2>Discover Rococo, the 18th century European art movement</h2>
+        </div>
+        
+
+        <h3 class="sous_titres_homepage" >Rococo festival </h3>
+        <p class="texte_debut_info">Find out more about the Rococo festival below</p>
+        <div class="info_date">
+            <img src="/public/img/calendar.svg" alt="logo calendrier">
+            <p>Exhibition dates: 13 April to 23 June 2021</p>
+        </div>   
+        <div class="info_lieu">
+            <img src="/public/img/Location.svg" alt="logo lieu">
+            <p> Location of the exhibition: Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+        </div>
+        <div class="info_when">
+            <img src="/public/img/Horloge.svg" alt="Logo Horloge">
+            <p>Opening hours: Every day from 11am to 8pm, except Mondays. Nocturne on Tuesdays, until 10pm. The rooms close at 7.45pm (9.45pm on Tuesdays).</p>
+        </div>
+        <div class="info_tarif">
+            <img src="/public/img/Billet.svg" alt="Logo billet">
+            <p>Fares :
+                Full price ⇒ 11€.
+                Reduced rate ⇒ 7,50€ (€)
+                Reduced rate 13 - 25 years old ⇒ €5
+                Fondation Cartier Pass ⇒ 18€ - 50
+                Under 13s, Annual pass, Icom card, press card, disability card, Fondation Cartier Pass, Students ⇒ Free
+            </p>
+        </div>
+        <h3 class="sous_titres_homepage">Works on the programme</h3>
+        <section>
+            <div class="carrousel" x-data="{}"><div class="carrousel" x-data="{}">
+                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth"  class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button>
+                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+                    <div class="carrousel_parent-ecrans" x-ref="parent">
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="/public/img/image_1_carroussel.webp" alt="image carrousel">
+                        </figure>
+                    </div>
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="/public/img/image_2_carroussel.webp" alt="image carrousel">
+                        </figure></div>
+                        <div class="carrousel_ecran">
+                            <figure>
+                                <img class="img_carrousel" src="/public/img/image_3_carroussel.webp" alt="image carrousel">
+                            </figure>
+                        </div>
+                        <div class="carrousel_ecran">
+                            <figure>
+                                <img class="img_carrousel" src="/public/img/image_4_carroussel.webp" alt="image carrousel">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                    
+                
+        </section>
+
+        <a class="link" href="/FR/Frise.html"><P>Timeline of the different artists</P></a>
+    </main>
+
+    <footer>
+        <img src="/public/img/logo_site.svg" alt="Logo site">
+        <p>Contact</p>
+        <p>Rococo</p>
+        <p>Billeterie</p>
+        <p>
+            project carried out as part of an exercise
+            teaching at the department <a href="http://mmimontbeliard.com/"> MMi of Montbéliard</a> 
+        </p>
+    </footer>
+
+
+    
+</body>
+</html>
