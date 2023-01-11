@@ -5,3 +5,31 @@
   [[plugins.inputs.audits]]
     output_path="reports/accueil.html"
     path = "" #la racine du site
+
+    [[plugins.inputs.audits]]
+    output_path="reports/FR/index.html"
+    path = "/FR/index.html" 
+
+
+    [[plugins.inputs.audits]]
+    output_path="reports/FR/Baciccio.html"
+    path = "/FR/Baciccio.html" 
+
+
+    [[plugins.inputs.audits]]
+    output_path="reports/FR/Ariadne.html"
+    path = "/FR/Ariadne.html" 
+
+
+    [[plugins.inputs.audits]]
+    output_path="reports/FR/A_propos.html"
+    path = "/FR/A_propos.html" 
+
+     [[plugins.inputs.audits]]
+    output_path="reports/FR/Frise.html"
+    path = "/FR/Frise.html" 
+    
+     [[plugins.inputs.audits]]
+    output_path="reports/FR/Contact.html"
+    path = "/FR/Contact.html"
+    

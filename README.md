@@ -4,7 +4,21 @@
 - URL du site : https://rococo-festival.evanmoulin.fr/fr/
 - URL FIGMA :https://www.figma.com/file/uneJrQx8hWZpXL6i8ehMI1/SAE_105_Evan_Moulin-(2022)-(Copy)?node-id=322%3A1210&t=KOQZV225DOuBmaS6-1
 
- - Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/accueil.html
+- Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/accueil.html
+
+- Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/FR/index.html
+
+- Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/FR/Baciccio.html
+
+- Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/FR/Ariadne.html
+
+- Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/FR/A_propos.html
+
+- Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/FR/Frise.html
+
+- Rapport lighthouse: https://rococo-festival.evanmoulin.fr/reports/FR/Contact.html
+
+
 
 # Structure de départ pour la SAE 105.
 
