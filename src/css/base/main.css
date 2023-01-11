@@ -302,3 +302,10 @@ a {
     font-weight: bold;
     text-align: center;
 }
+
+.citation {
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: large;
+}
