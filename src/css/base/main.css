@@ -96,6 +96,7 @@ form {
     margin-left: 25px;
     display:flex;
     justify-content: space-between;
+    font-size: var(--text-article);
     
     }
 
@@ -110,6 +111,7 @@ form {
     margin-bottom: 32px;
     display:flex;
     justify-content: space-between;
+    font-size: var(--text-article);
     }
 
 .nom input {
@@ -124,6 +126,7 @@ form {
     margin-bottom: 32px;
     display:flex;
     justify-content: space-between;
+    font-size: var(--text-article);
     }
     
 .email input {
@@ -137,6 +140,8 @@ form {
     margin-bottom: 32px;
     display:flex;
     justify-content: space-between;
+    font-size: var(--text-article);
+    
     }
     
 .message textarea {
