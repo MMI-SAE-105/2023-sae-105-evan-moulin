@@ -318,15 +318,42 @@ Page redirection de langue
     width: 100%;
     height: 100px;
     background-color: var(--primary);
+    margin-bottom: 30px;
 }
 
-
-.h1_Redirection_langue {
-    font-size: var(--title);
+.box_redirection_langue h1{
+    margin-top: -70px;
     text-align: center;
+    font-size: var(--title);
 }
 
-.li_changement_de_langue {
-    width: 50px;
-    height: 30px;
+.img_redirection_langue {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+.li_france  {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+    list-style-type: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 0px;
+   
+}
+
+.li_france a {
+    color: var(--black);
+    padding-top: 14px;
+    padding-left: 16px;;
+    position: fixed;
+}
+
+
+/*
+Page erreur 404
+*/
