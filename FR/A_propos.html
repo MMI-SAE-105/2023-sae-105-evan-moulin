@@ -75,11 +75,11 @@
     <div class="accordeon">
       <section x-data="{open:true}">
         <button class="button_accordeon" @click="open = !open">Le rococo évenement</button>
-        <p x-show="open">Le rococo évenement aura lieu du 13 avril au 23 juin 2021, pour plus d'information rendez-vous sur la page <a href="/FR/index.html">informaation.</a></p>
+        <p x-show="open"  x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>Le rococo évenement aura lieu du 13 avril au 23 juin 2021, pour plus d'information rendez-vous sur la page <a href="/FR/index.html">informaation.</a></p>
       </section>
       <section x-data="{open:true}">
         <button class="button_accordeon" @click="open = !open">tarif</button>
-        <p x-show="open">Différents tarifs sont mis à disposition pour cet évenement, 
+        <p x-show="open"  x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>Différents tarifs sont mis à disposition pour cet évenement, 
             plein tarif → 11€   
             tarif réduit → 7.50€
             tarif 13 - 25 ans → 5€
@@ -87,7 +87,7 @@
       </section>
       <section x-data="{open:true}">
         <button class="button_accordeon" @click="open = !open">qu'est ce que le Rococo</button>
-        <p x-show="open">Le rococo est un mouvement artistique européen du XVIIIe siècle touchant principalement l’architecture, mais également les arts décoratifs, ainsi que la peinture et, dans une moindre mesure, la musique et la littérature.</p>
+        <p x-show="open"  x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms >Le rococo est un mouvement artistique européen du XVIIIe siècle touchant principalement l’architecture, mais également les arts décoratifs, ainsi que la peinture et, dans une moindre mesure, la musique et la littérature.</p>
       </section>
     </div>
  
