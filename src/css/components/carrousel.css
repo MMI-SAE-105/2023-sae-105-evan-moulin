@@ -30,4 +30,27 @@ img {
 .carrousel {
     position: relative;
 }
-  
+
+.carrousel_btn {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    background: var(--primary);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: var(--white);
+  }
+
+  .carrousel_btn-avant {
+    left: 0;
+    margin-left: 20px;
+  }
+
+  .carrousel_btn-apres {
+    right: 0;
+    margin-right: 20px;
+  }
