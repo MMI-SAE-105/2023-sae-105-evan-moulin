@@ -282,6 +282,7 @@ All page
 
 a {
     text-decoration: none;
+    color: #3366cc;
 }
 
 .link {
@@ -292,4 +293,6 @@ a {
     text-align: center;
     margin: auto;
     display: flex;
+    margin-bottom: 30px; ;
 }
+
