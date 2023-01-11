@@ -1,8 +1,33 @@
 * {
     box-sizing: border-box;
     }
-    img {
-     max-width: 100%;
-     height: auto;
-    }
+img {
+    max-width: 100%;
+    height: auto;
+}
     
+.carrousel_parent-ecrans {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll; 
+    scroll-behavior: smooth; 
+    scroll-snap-type: x mandatory; 
+    margin: 0%;
+}
+
+.carrousel_ecran {
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+    margin: 0%;
+}
+
+.carrousel_ecran figure {
+    margin: 0%;
+  
+}
+  
+.carrousel {
+    position: relative;
+}
+  
