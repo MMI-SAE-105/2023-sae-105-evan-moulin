@@ -6,6 +6,7 @@
 @import url(/src/fonts/font.css);
 @import url(/src/css/vendors/normalize.css);
 @import url(/src/css/components/accordeon.css);
+@import url(/src/css/components/carrousel.css);
 
 
 *{
